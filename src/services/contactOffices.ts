@@ -16,7 +16,7 @@ export interface ContactOffice {
   updatedAt?: string;
 }
 
-const API_BASE = "https://cbm-backend-e1rq.onrender.com"
+const API_BASE = 'https://api2.brelis.in/api'
 
 // Helper function to create FormData for file uploads
 const createFormData = (data: Partial<ContactOffice>, file?: File): FormData => {
