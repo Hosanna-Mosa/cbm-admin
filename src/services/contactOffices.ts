@@ -16,7 +16,7 @@ export interface ContactOffice {
   updatedAt?: string;
 }
 
-const API_BASE = 'https://api2.brelis.in/api'
+const API_BASE = 'https://api2.brelis.in'
 
 // Helper function to create FormData for file uploads
 const createFormData = (data: Partial<ContactOffice>, file?: File): FormData => {
